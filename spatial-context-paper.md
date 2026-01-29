@@ -187,3 +187,9 @@ Turner, T. (2025). Spatial Context: Why Visual Views Solve the Documentation Pro
 ## License
 
 This work is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+*Been thinking about this for months. Open sourced it because the big labs will solve it eventually anyway - figured I'd plant the flag now.*
+
+*— Tony*
