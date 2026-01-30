@@ -22,7 +22,7 @@ Documentation fails not because of discipline problems, but because of architect
 ## Files
 
 - [`spatial-context-paper.md`](spatial-context-paper.md) - Full paper (Markdown)
-- [`spatial-context-paper.pdf`](spatial-context-paper.pdf) - Full paper (PDF)
+- [`spatial-context-paper.pdf`](https://github.com/Hotchilli-Cloud/spatial-context-theory/raw/master/spatial-context-paper.pdf) - Full paper (PDF download)
 
 ## Citation
 
