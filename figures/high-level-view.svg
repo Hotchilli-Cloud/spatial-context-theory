@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="350" viewBox="0 0 680 350" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <marker id="d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="680" height="350" fill="#ffffff"/>
+  <text x="20" y="22" font-size="13" font-weight="bold" fill="#0f172a">High Level View: 1 frontend, 16 services</text>
+
+  <!-- direct calls -->
+  <g stroke="#334155" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="150" y1="172" x2="208" y2="172"/>
+    <path d="M330,172 C360,172 360,62 398,62"/>
+    <path d="M330,172 C360,172 360,117 398,117"/>
+    <line x1="330" y1="172" x2="398" y2="172"/>
+    <path d="M330,172 C360,172 360,227 398,227"/>
+    <path d="M330,172 C360,172 360,282 398,282"/>
+  </g>
+  <!-- functional paths -->
+  <g stroke="#2563eb" stroke-width="1.6" fill="none" stroke-dasharray="6 4" marker-end="url(#d)">
+    <path d="M528,62 C600,62 600,172 530,172"/>
+    <path d="M528,117 C635,117 635,227 530,227"/>
+  </g>
+
+  <g font-size="12.5" fill="#0f172a" text-anchor="middle">
+    <rect x="30" y="150" width="120" height="44" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+    <text x="90" y="176">frontend</text>
+    <rect x="210" y="150" width="120" height="44" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.4"/>
+    <text x="270" y="176">go-router</text>
+    <rect x="400" y="40" width="128" height="44" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.4"/>
+    <text x="464" y="66">fastapi-auth</text>
+    <rect x="400" y="95" width="128" height="44" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.4"/>
+    <text x="464" y="121">pricing</text>
+    <rect x="400" y="150" width="128" height="44" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.4"/>
+    <text x="464" y="176">data</text>
+    <rect x="400" y="205" width="128" height="44" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.4"/>
+    <text x="464" y="231">redis-cache</text>
+    <rect x="408" y="268" width="128" height="44" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+    <rect x="404" y="264" width="128" height="44" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+    <rect x="400" y="260" width="128" height="44" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.4"/>
+    <text x="464" y="286">+ 11 more services</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11.5" fill="#334155">
+    <line x1="30" y1="334" x2="70" y2="334" stroke="#334155" stroke-width="1.6"/>
+    <text x="78" y="338">direct call</text>
+    <line x1="160" y1="334" x2="200" y2="334" stroke="#2563eb" stroke-width="1.6" stroke-dasharray="6 4"/>
+    <text x="208" y="338">functional path</text>
+    <rect x="320" y="325" width="22" height="16" rx="3" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+    <text x="350" y="338">Repo View (points to its repository; internal modules hidden)</text>
+  </g>
+</svg>

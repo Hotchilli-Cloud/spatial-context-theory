@@ -87,6 +87,8 @@ Create a High Level View. Then create 17 Repo Views - one for each component: fr
 
 Now draw connections: frontend → router → downstream services. Use solid lines for direct calls, dashed lines for functional paths. Name modules to embed context: `fastapi-auth`, `go-router`, `redis-cache`. Humans now know what we're building. So does AI.
 
+![Level 1, the High Level View for the example: 1 frontend and 16 services. Each box is a Repo View that points to its repository, shown without its internal modules. Solid lines are direct calls; dashed lines are functional paths.](figures/high-level-view.svg)
+
 **Level 2: Sub-views**
 Open the frontend View and add all its pages as modules. Create a `frontend-backend` sub-view - this is not a High Level View, not a Repo View - and import all the service views with their modules and connections visible. The sub-view now shows all services, all functional and non-functional paths, all relationships.
 
@@ -155,6 +157,8 @@ Multi-agent systems require shared understanding. Visual views provide a common 
 ### 6.3 Human-AI Collaboration
 
 The view becomes the collaboration surface. Humans express intent visually. AI executes against that intent. Both observe the same structure.
+
+Humans reason over the View: boxes, lines and names they can see. AI reasons over the same View as a graph: modules are nodes, connections are edges, and names and file pointers are properties. Most diagrams are already stored as structured data behind the picture, so nothing has to be translated. The picture and the graph are one thing, read two ways.
 
 ---
 
