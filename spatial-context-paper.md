@@ -162,7 +162,7 @@ The view becomes the collaboration surface. Humans express intent visually. AI e
 
 Used as the one place a team draws and documents its systems, the same Views give:
 
-- **One shared source of truth.** Logic, design, diagrams and docs live in the same Views, not in copies spread across tools and laptops.
+- **One shared source of truth.** Logic, design, diagrams and docs live in the same shared source of truth.
 - **A source of truth shared by AI and humans.** People and AI agents read and work from the same structure, so intent and output come from one place.
 - **Onboarding.** A new starter follows the Views from the High Level View down: what the system is, how it connects, where each feature sits, then into the code.
 - **Lower token cost.** AI is passed the relevant View, not the whole codebase or document set, so each task needs fewer tokens.
