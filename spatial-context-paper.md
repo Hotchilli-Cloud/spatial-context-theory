@@ -186,7 +186,7 @@ Spatial Context Theory proposes that visual, hierarchical views are the correct 
 
 ## About the Author
 
-Tony Turner is the founder of Spatial Thinking, a research practice exploring how visual and spatial approaches solve fundamental problems in AI systems. His background includes building an ISP from a garage to £6M ARR (exited 2007), serving at Napster as VP Engineering and then VP Architecture (56 engineers), and over 25 years of production systems across telecommunications, manufacturing and software architecture.
+Tony Turner is the founder of Spatial Thinking, a research practice exploring how visual and spatial approaches solve fundamental problems in AI systems. His background includes building an ISP from a garage to £6M ARR (exited 2007), serving at Napster as VP Engineering (56 engineers) and then VP Architecture, and over 25 years of production systems across telecommunications, manufacturing and software architecture.
 
 ---
 
